@@ -1,0 +1,9 @@
+MEdia + Prova / 2
+
+6 > = Aprovado em exf
+
+< 6 Reprovado
+
+
+&&
+||

@@ -27,6 +27,9 @@ int main(){
            salReaj = (salAtual + (salAtual * 0.05));
            salliq = (salReaj - (salReaj * 0.08));
         }
+        if(salAtual >= 3000) {
+           salliq = (salReaj - (salReaj * 0.08));
+        }
     
     printf("\n\tSalario Atual: %.2f \n\tReajuste: %.2f \n\tSalario Liquido: %.2f\n\n", salAtual, salReaj, salliq);
     system("pause");

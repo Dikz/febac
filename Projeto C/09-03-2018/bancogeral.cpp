@@ -17,19 +17,19 @@ int main () {
           scanf("%f",&valSaque);
             saldoAtual = (saldoAtual - valSaque);
             printf("Saldo Atual: %.2f\n\n",saldoAtual);
-          break;
+                  break;
           
           case 2: printf("\t\n - Opcao de Depositar\n - Digite o valor do Deposito: ");
                   scanf("%f",&valDeposito);
                     saldoAtual = (saldoAtual + valDeposito);
                     printf("Seu novo saldo: %.2f\n\n",saldoAtual);                  
-          break;
+                  break;
           
           case 3: printf(" Opcao Ver Saldo\n Seu Saldo Atual: %.2f\n",saldoAtual);
-          break;
+                  break;
           
           case 4: printf("Sair do Sistema\n");
-          break;
+                  break;
           
           default: printf("Opcao Invalida!\n");
         }

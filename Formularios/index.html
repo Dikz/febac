@@ -6,27 +6,42 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<!-- Input Radio -->
-	<form class="box">
-		<input type="radio" name="sexo" value="masculino">Masculino
-		<br><br>
-		<input type="radio" name="sexo" value="masculino">Feminino
-	</form>
+	<div class="main">
+		<!-- Input Radio -->
+		<form class="">
+			<input type="radio" name="sexo" value="masculino">Masculino
+			<br><br>
+			<input type="radio" name="sexo" value="masculino">Feminino
+		</form>
 
-	<!-- Input Checkbox -->
-	<form>
-		<input type="checkbox" name="curso"> HTML <br>
-		<input type="checkbox" name="curso"> CSS <br>
-		<input type="checkbox" name="curso"> JAVASCRIPT <br>
-		<input type="checkbox" name="curso"> PHP <br>
-		<input type="checkbox" name="curso"> BANCO DE DADOS <br>
-	</form>
+		<!-- Input Checkbox -->
+		<form class="">
+			<input type="checkbox" name="curso"> HTML <br>
+			<input type="checkbox" name="curso"> CSS <br>
+			<input type="checkbox" name="curso"> JAVASCRIPT <br>
+			<input type="checkbox" name="curso"> PHP <br>
+			<input type="checkbox" name="curso"> BANCO DE DADOS <br>
+		</form>
 
-	<!-- Textarea -->
-	<form>
-		<textarea name="comentarios" cols="30" rows="10">
-			Digite aqui seus comentarios
-		</textarea>
-	</form>
+		<!-- Textarea -->
+		<form class="">
+			<textarea name="comentarios" cols="30" rows="10" onfocus="this.value=''">
+				Digite aqui seus comentarios
+			</textarea>
+		</form>
+
+		<!-- Select e Option -->
+		<form>
+			<select name="estados">
+				<option value="RJ"> Rio de Janeiro
+				<option value="SP"> São Paulo
+				<option value="MG"> Minas Gerais
+				<option value="PR"> Paraná
+				<option value="SC"> Santa Catarina
+				<option value="RS"> Rio Grande do Sul
+				<option selected value="RN"> Rio Grande do Norte 
+			</select>
+		</form>
+	</div>
 </body>
 </html>

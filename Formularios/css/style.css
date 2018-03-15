@@ -5,7 +5,11 @@ body {
 	width: 100%;
 }
 .box {
-	width: 50%;
+	/*width: 40%;*/
+}
+
+h3 {
+	color: #000;
 }
 form {
 	float: left;

@@ -8,14 +8,14 @@
 <body>
 	<div class="main">
 		<!-- Input Radio -->
-		<form class="">
+		<form class="box">
 			<input type="radio" name="sexo" value="masculino">Masculino
 			<br><br>
 			<input type="radio" name="sexo" value="masculino">Feminino
 		</form>
 
 		<!-- Input Checkbox -->
-		<form class="">
+		<form class="box">
 			<input type="checkbox" name="curso"> HTML <br>
 			<input type="checkbox" name="curso"> CSS <br>
 			<input type="checkbox" name="curso"> JAVASCRIPT <br>
@@ -24,14 +24,14 @@
 		</form>
 
 		<!-- Textarea -->
-		<form class="">
+		<form class="box">
 			<textarea name="comentarios" cols="30" rows="10" onfocus="this.value=''">
 				Digite aqui seus comentarios
 			</textarea>
 		</form>
 
 		<!-- Select e Option -->
-		<form>
+		<form class="box">
 			<select name="estados">
 				<option value="RJ"> Rio de Janeiro
 				<option value="SP"> São Paulo
@@ -44,8 +44,15 @@
 		</form>
 
 		<!-- Form Password -->
-		<form>
+		<form class="box">
 			Senha:<input type="password" name="senha" size="6" maxlength="6">
+		</form>
+
+		<!-- Submit e Reset -->
+		<form class="box">
+			<input type="text" name="cxtexto"><br>
+			<input type="submit" name="nm_envio" value="Enviar">
+			<input type="reset" name="nm_limpar" value="Limpar">
 		</form>
 	</div>
 </body>

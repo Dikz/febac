@@ -24,3 +24,7 @@ form {
 	color: #58b0ff;
 	margin-bottom: 40px;
 }
+input {
+	margin-bottom: 8px;
+	border-radius: 4px;
+}

@@ -5,8 +5,10 @@ body {
 	width: 100%;
 }
 .box {
-	/*width: 40%;*/
+	width: 45%;
+	height: 140px;
 }
+
 
 h3 {
 	color: #000;
@@ -15,7 +17,7 @@ form {
 	float: left;
 	margin-right: 20px;
 	border: solid 1px gray;
-	padding: 20px;
+	padding: 14px;
 	box-shadow: 1px 2px 4px #c0c6cc;
 	background: #d7ecff;
 	font-weight: bold;

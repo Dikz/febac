@@ -1,0 +1,35 @@
+table {
+	border: solid 1px black;
+	float: left;
+	margin-right: 40px;
+}
+
+
+.maintable th, thead {
+	height: 60px;
+	background: #1b75bc;
+	color: #fff;
+	font-weight: bold;
+}
+
+.maintable tr {
+	text-align: center;
+}
+
+.maintable td {
+	padding: 20px 10px;
+	border: solid 1px white;
+}
+
+.table1 td{
+	background: #bad5ea;
+}
+.table1 td:hover {
+	background: #76acd6;
+}
+.table1 {
+	box-shadow: 2px 4px 4px black;
+}
+.table1:hover {
+	box-shadow: 4px 6px 8px #1b75bc;
+}

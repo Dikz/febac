@@ -61,7 +61,7 @@ int main(){
 
 
 	if(existe == false){
-		printf("\n\tNao existe este numero no vetor!\n");
+		printf("\n\tA nota buscada nao existe!\n");
 	}
 
 	
